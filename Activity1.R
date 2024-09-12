@@ -37,3 +37,17 @@ highPeaks[1:2]
 
 
 ##Prompt 1 
+snowfallIn <- c(2.5, 3, 5, 4.5)
+snowfallCm <- snowfallIn*2.54
+snowfallCm
+
+##prompt 2 
+name <- c("Mount Haystack", "Mount Skylight", "Dix Mountain", "Gray Peak")
+elevation <- c(4960, 4926, 4857, 4840)
+ascent <- c(3570, 4265, 2800, 4178)
+length <- c(17.8, 17.9, 13.2, 16)
+
+peaksDifficultyDF <- data.frame(PeakName = name, 
+                                ElevationFt = elevation, 
+                                ClimbAscentFt = ascent,
+                                LengthMi = length)
