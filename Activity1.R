@@ -51,3 +51,8 @@ peaksDifficultyDF <- data.frame(PeakName = name,
                                 ElevationFt = elevation, 
                                 ClimbAscentFt = ascent,
                                 LengthMi = length)
+
+#Prompt 3
+Celcius <- c(-44, 0, 20, 35)
+FarenheitConversion <- Celcius * (9/5) + 32
+FarenheitConversion
